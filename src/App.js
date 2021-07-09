@@ -7,6 +7,10 @@ class App extends React.Component {
     return a + b;
   }
 
+  sub(a, b) {
+    return a - b;
+  }
+
   render() {
     return (
       <div className="App">
