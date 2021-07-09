@@ -11,6 +11,10 @@ class App extends React.Component {
     return a + b;
   }
 
+  square(a){
+    return a * a;
+  }
+
   render() {
     return (
       <div className="App">
