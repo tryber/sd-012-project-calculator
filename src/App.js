@@ -1,12 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      Calculadora
-    </div>
-  );
+class App extends React.Component {
+
+  add(a, b) {
+    return a + b;
+  }
+
+  render() {
+    return (
+      <div className="App">
+        Calculadora
+      </div>
+    );
+  }
 }
 
 export default App;
